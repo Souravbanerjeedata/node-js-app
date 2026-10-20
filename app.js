@@ -3,6 +3,12 @@ const express = require("express");
 
 const app = express();
 
-const server = http.createServer(app);
+app.use("/add-product", (req, res, next) => {
+  res.send("<h1>From Add product Page</h1>");
+});
 
-server.listen(3000);
+app.use("/", (req, res, next) => {
+  res.send("<h1>Home Page</h1>");
+});
+
+app.listen(3000);
