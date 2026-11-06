@@ -1,9 +1,1 @@
-[
-  {
-    "id": "12345",
-    "title": "A Book",
-    "imageUrl": "https://img.magnific.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?semt=ais_hybrid&w=740&q=80",
-    "description": "This is an awesome book!",
-    "price": "19"
-  }
-]
+[{"id":"12345","title":"A Book","imageUrl":"https://img.magnific.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?semt=ais_hybrid&w=740&q=80","description":"This is an awesome book!","price":"19"},{"title":"Hand Bag","imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsQ7udo4wVnjKUbDx1GnVJpBLJngtd8y-giIxa3wJ_GG8PF0WI_rRzIeY&s=10","description":"Test","price":"99","id":"0.11312583009380028"}]
