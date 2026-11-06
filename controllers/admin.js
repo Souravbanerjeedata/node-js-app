@@ -51,7 +51,7 @@ exports.postEditProduct = (req, res, next) => {
     updatedPrice,
   );
   updatedProduct.save();
-  res.redirect("/");
+  res.redirect("/admin/products");
 };
 
 exports.getProducts = (req, res, next) => {
@@ -62,4 +62,8 @@ exports.getProducts = (req, res, next) => {
       path: "/admin/products",
     });
   });
+};
+
+exports.postDeleteProduct = (req, res, next) => {
+  const prodId = req.body.productId;
 };
